@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:vpn/features/common/splash/view/splash_view.dart';
 
 
 class AppRoutes {
@@ -23,7 +24,7 @@ class AppRoutes {
   List<GetPage<dynamic>> get appRoutes => [
         GetPage(
           name: _routeNames[0],
-          page: () => const Scaffold(),
+          page: () => const SplashView(),
         ),
         GetPage(
           name: _routeNames[1],
