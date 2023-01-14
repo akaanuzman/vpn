@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'ITheme.dart';
-import 'color/app_colors.dart';
 
 class AppTheme extends ITheme {
   static AppTheme? _instance;
@@ -16,14 +15,13 @@ class AppTheme extends ITheme {
 
   AppTheme.init();
 
-  AppColors get colors => AppColors.instance;
-
   ThemeData get ligth => ThemeData.light().copyWith();
 
   ThemeData get dark => ThemeData.dark().copyWith(
-    colorScheme: const ColorScheme.dark().copyWith(
-      primary: colors.primary,
-      secondary: colors.secondary,
-    )
-  );
+        textTheme: texts.textTheme,
+        colorScheme: const ColorScheme.dark().copyWith(
+          primary: colors.primary,
+          secondary: colors.secondary,
+        ),
+      );
 }
