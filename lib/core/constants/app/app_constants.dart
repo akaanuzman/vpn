@@ -18,4 +18,5 @@ class AppConstants {
   bool get showBanner => false;
   Locale? get deviceLocale => Get.deviceLocale;
   Locale get fallbackLocale => const Locale('en', 'US');
+  String get initialRoute => "/splash";
 }
