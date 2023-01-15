@@ -68,7 +68,6 @@ class AppTexts {
         ),
         bodyText2: genericTextStyle(
           fontSize: 14,
-          height: 165,
           letterSpacing: 0.5,
         ),
         button: genericTextStyle(

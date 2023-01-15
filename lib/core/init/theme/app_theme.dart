@@ -19,6 +19,7 @@ class AppTheme extends ITheme {
 
   ThemeData get dark => ThemeData.dark().copyWith(
         textTheme: texts.textTheme,
+        scaffoldBackgroundColor: colors.bgBlack,
         colorScheme: const ColorScheme.dark().copyWith(
           primary: colors.primary,
           secondary: colors.secondary,
