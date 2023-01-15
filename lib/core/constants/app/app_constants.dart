@@ -14,7 +14,7 @@ class AppConstants {
 
   AppConstants.init();
 
-  String get appTitle => "VPN";
+  String get appTitle => "VPNite";
   bool get showBanner => false;
   Locale? get deviceLocale => Get.deviceLocale;
   Locale get fallbackLocale => const Locale('en', 'US');

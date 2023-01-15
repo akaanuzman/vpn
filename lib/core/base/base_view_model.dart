@@ -3,6 +3,7 @@ import '_export_base_view_model.dart';
 
 abstract class BaseViewModel {
   AppConstants get appConstants => AppConstants.instance;
+  PathConstants get path => PathConstants.instance;
   AppTheme get theme => AppTheme.instance;
   AppRoutes get routes => AppRoutes.instance;
   PaddingUtils get padding => PaddingUtils.instance;

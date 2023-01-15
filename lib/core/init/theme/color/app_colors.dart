@@ -42,6 +42,8 @@ class AppColors {
   Color get typography4 => const Color(0xff82828B);
   Color get typography5 => const Color(0xff585864);
   Color get typography6 => const Color(0xff434350);
+  Color get typography7 => const Color(0xffA1A1AC);
+
 
   // Accent Colors
   Color get red => const Color(0xffEB445A);
